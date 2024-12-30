@@ -17,7 +17,7 @@ namespace CSharpEgitimKampi601.Entities
         public string CustomerName { get; set; }
         public string CustomerSurname { get; set; }
         public string CustomerCity { get; set; }
-        public string CustomerBalance { get; set; }
-        public string CustomerShoppingCount { get; set; }
+        public decimal CustomerBalance { get; set; }
+        public int CustomerShoppingCount { get; set; }
     }
 }
