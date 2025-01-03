@@ -39,7 +39,7 @@
             this.txtCustomerShoppingCount = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnCustomerList = new System.Windows.Forms.Button();
-            this.btnCustomerAdd = new System.Windows.Forms.Button();
+            this.btnCustomerCreate = new System.Windows.Forms.Button();
             this.btnCustomerDelete = new System.Windows.Forms.Button();
             this.btnCustomerUpdate = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -146,16 +146,17 @@
             this.btnCustomerList.UseVisualStyleBackColor = false;
             this.btnCustomerList.Click += new System.EventHandler(this.btnCustomerList_Click);
             // 
-            // btnCustomerAdd
+            // btnCustomerCreate
             // 
-            this.btnCustomerAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnCustomerAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCustomerAdd.Location = new System.Drawing.Point(164, 297);
-            this.btnCustomerAdd.Name = "btnCustomerAdd";
-            this.btnCustomerAdd.Size = new System.Drawing.Size(133, 37);
-            this.btnCustomerAdd.TabIndex = 11;
-            this.btnCustomerAdd.Text = "Ekle";
-            this.btnCustomerAdd.UseVisualStyleBackColor = false;
+            this.btnCustomerCreate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnCustomerCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCustomerCreate.Location = new System.Drawing.Point(164, 297);
+            this.btnCustomerCreate.Name = "btnCustomerCreate";
+            this.btnCustomerCreate.Size = new System.Drawing.Size(133, 37);
+            this.btnCustomerCreate.TabIndex = 11;
+            this.btnCustomerCreate.Text = "Ekle";
+            this.btnCustomerCreate.UseVisualStyleBackColor = false;
+//            this.btnCustomerCreate.Click += new System.EventHandler(this.btnCustomerCreate_Click);
             // 
             // btnCustomerDelete
             // 
@@ -231,7 +232,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnCustomerUpdate);
             this.Controls.Add(this.btnCustomerDelete);
-            this.Controls.Add(this.btnCustomerAdd);
+            this.Controls.Add(this.btnCustomerCreate);
             this.Controls.Add(this.btnCustomerList);
             this.Controls.Add(this.txtCustomerShoppingCount);
             this.Controls.Add(this.label5);
@@ -264,7 +265,7 @@
         private System.Windows.Forms.TextBox txtCustomerShoppingCount;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnCustomerList;
-        private System.Windows.Forms.Button btnCustomerAdd;
+        private System.Windows.Forms.Button btnCustomerCreate;
         private System.Windows.Forms.Button btnCustomerDelete;
         private System.Windows.Forms.Button btnCustomerUpdate;
         private System.Windows.Forms.DataGridView dataGridView1;

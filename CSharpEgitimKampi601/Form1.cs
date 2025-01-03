@@ -1,5 +1,6 @@
 ﻿using CSharpEgitimKampi601.Entities;
 using CSharpEgitimKampi601.Services;
+using Npgsql;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -68,5 +69,7 @@ namespace CSharpEgitimKampi601
             Customer customers = customerOperations.GetCustomerById(id);
             dataGridView1.DataSource = new List<Customer> { customers };
         }
+
+        
     }
 }
